@@ -12,11 +12,13 @@ import java.util.StringTokenizer;
 public class Main15665 {
 
 	private static StringBuilder str=new StringBuilder();
+	
 	public static void main(String[] args) {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		int n = 0, m=0;
 		Set<Integer> set= new HashSet<Integer>();
 		ArrayList<Integer> numberList=new ArrayList<Integer>();
+		
 		try {
 			String firstLine=br.readLine();
 			String secondLine=br.readLine();
@@ -32,6 +34,7 @@ public class Main15665 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 		Iterator<Integer> iter=set.iterator();
 		while(iter.hasNext())
 			numberList.add(iter.next());
