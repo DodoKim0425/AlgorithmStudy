@@ -8,7 +8,6 @@ import java.util.Stack;
 
 
 public class Main1941 {
-    private static long test;
     private static int res;//경우의 수 저장
     private static ArrayList<Student> students;//전체 학생 저장
     private static int[][] move= {{-1,0},{0,1},{1,0},{0,-1}};//4방 확인에 사용
