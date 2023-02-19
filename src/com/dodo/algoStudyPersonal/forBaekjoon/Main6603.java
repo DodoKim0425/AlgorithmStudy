@@ -6,15 +6,15 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main6603 {
-	private static int lottoNum=6;
-	private static int k;
-	private static StringBuilder sb=new StringBuilder();
-	private static String [] caseNumbers;
+	private static int lottoNum=6;//골라야 하는 숫자의 개수
+	private static int k;//주어지는 숫자 개수
+	private static StringBuilder sb=new StringBuilder();//결과 담기는 스트링 빌더
+	private static String [] caseNumbers;//주어지는 숫자들
 	public static void main(String[] args) throws Exception{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		while(true) {
 			String line=br.readLine();
-			if(line.equals("0")) {
+			if(line.equals("0")) {//0이면 테스트 케이스 없으므로 종료
 				break;
 			}
 			String[] testCase=line.split(" ");
@@ -30,7 +30,7 @@ public class Main6603 {
 		System.out.println(sb);
 	}
 	public static void getNumbers(int depth, int start, String[] numbers) {
-		if(depth==lottoNum) {
+		if(depth==lottoNum) {//재귀 호출 종료
 			for(int i=0;i<depth;i++) {
 				sb.append(numbers[i]);
 				sb.append(" ");
