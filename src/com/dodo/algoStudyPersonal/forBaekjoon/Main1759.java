@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Main1759 {
+public class Main1759 {//암호만들기
 
 	public static int l;
 	public static int c;
