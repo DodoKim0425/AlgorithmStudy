@@ -41,7 +41,7 @@ public class Main14497 {
 
 	public static void getRes() {
 		boolean find = false;
-		while (true) {
+		while (true) {//반복문 한번에 점프한번
 			boolean[][] visited = new boolean[n][m];
 			res++;
 			Queue<Node14497> queue = new LinkedList<Node14497>();
