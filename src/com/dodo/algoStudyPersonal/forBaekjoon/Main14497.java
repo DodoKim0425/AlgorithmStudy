@@ -40,7 +40,7 @@ public class Main14497 {
 	}
 
 	public static void getRes() {
-		boolean find = false;
+		boolean find = false;//범인을 잡았는지 표시한다
 		while (true) {//반복문 한번에 점프한번
 			boolean[][] visited = new boolean[n][m];
 			res++;
