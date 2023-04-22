@@ -3,7 +3,7 @@ package com.dodo.algoStudyPersonal.forBaekjoon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-//Math.pow 라이브러리 사용하면 오답   
+//Math.pow 라이브러리 사용하면 안됨
 //참고한 블로그: https://st-lab.tistory.com/237
 public class Main1629 {
 	public static void main(String[] args) throws IOException {
